@@ -297,22 +297,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 2750 4700 3300
 Wire Wire Line
-	4600 3300 4600 2850
-Wire Wire Line
-	4600 2850 6050 2850
-Wire Wire Line
-	6050 2850 6050 3650
-Wire Wire Line
-	6050 3650 6200 3650
-Wire Wire Line
-	4500 3300 4500 2900
-Wire Wire Line
-	4500 2900 5950 2900
-Wire Wire Line
-	5950 2900 5950 3550
-Wire Wire Line
-	5950 3550 6200 3550
-Wire Wire Line
 	7300 3750 7300 4050
 Wire Wire Line
 	7300 4050 7400 4050
@@ -374,17 +358,6 @@ F 1 "+9V" H 1565 3073 50  0000 C CNN
 F 2 "" H 1550 2900 50  0001 C CNN
 F 3 "" H 1550 2900 50  0001 C CNN
 	1    1550 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5E8DA182
-P 1550 3000
-F 0 "#PWR0102" H 1550 2750 50  0001 C CNN
-F 1 "GND" H 1555 2827 50  0000 C CNN
-F 2 "" H 1550 3000 50  0001 C CNN
-F 3 "" H 1550 3000 50  0001 C CNN
-	1    1550 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -459,4 +432,34 @@ Text Label 2900 3650 0    50   ~ 0
 5V
 Wire Wire Line
 	2800 3650 2900 3650
+Wire Wire Line
+	3300 3800 1550 3800
+Wire Wire Line
+	1550 3800 1550 3000
+Wire Wire Line
+	5750 4450 5750 3950
+Wire Wire Line
+	5750 3950 6200 3950
+Wire Wire Line
+	6050 2850 6050 3550
+Wire Wire Line
+	6050 3550 6200 3550
+Text Label 6050 3750 0    50   ~ 0
+5V
+Wire Wire Line
+	6050 3750 6050 3650
+Wire Wire Line
+	6050 3650 6200 3650
+Wire Wire Line
+	5700 3850 5700 3250
+Wire Wire Line
+	5700 3250 4600 3250
+Wire Wire Line
+	4600 3250 4600 3300
+Wire Wire Line
+	5700 3850 6200 3850
+Wire Wire Line
+	6050 2850 4500 2850
+Wire Wire Line
+	4500 2850 4500 3300
 $EndSCHEMATC

@@ -33,3 +33,6 @@
 
 # Others
 /.vs
+/KiCad_PCB_Files/fp-info-cache
+/KiCad_PCB_Files/BuzzDuino.sch-bak
+/KiCad_PCB_Files/BuzzDuino.kicad_pcb-bak
